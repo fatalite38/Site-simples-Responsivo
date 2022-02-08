@@ -1,0 +1,128 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; /* retirar qualquer decoração que possa ter no texto */
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, rgb(224,105,62) 85.61%);
+
+}
+
+.cabecalho {
+    display: flex;           /* utilizado para alinhar os elementos na página (FLEXBOX) */
+    flex-direction: row;     /* alinhando em direção horizontal */
+    align-items: center;    /* alinhando no centro */
+    justify-content: space-around;  /* escolhendo o espaçamento */
+    padding: 24px;  /* inserir espaço apenas na porção inferior da imagem */
+    
+}
+
+.menu-cabecalho {
+    display: flex;
+    gap: 32px;
+    
+}
+
+h1 {
+    font-size: 30px;
+    color: #FFF2E7;
+}
+
+.conteudo-button {
+    background-color: rgb(224,105,62);
+    width: 100px;
+    height: 30px;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(180, 73, 27);
+    border-radius: 20px;  /* Borda arredondada do button */
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF2E7;
+}
+.conteudo-button:hover {
+    background-color: silver;
+}
+
+.btn {
+    background-color: rgb(224,105,62);
+    width: 100px;
+    height: 30px;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(180, 73, 27);
+    border-radius: 20px;  /* Borda arredondada do button */
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF2E7;
+}
+
+.btn:hover {
+    background-color: silver;
+}
+
+
+.container-fluid {
+    color: #FFF2E7;
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+}
+
+.rodape {
+    padding: 32px;
+}
+
+.rodape-txt {
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+    color: #FFF2E7;
+}
+
+.col-lg-4 {
+    padding: 32px;
+    align-items: center;
+}
+
+.container-fluid {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+
+.img-corpo {
+    padding: 32px;
+}
+
+.dropdown-item {
+    background-color: rgb(224,105,62);
+    color: #FFF2E7;
+
+}
+
+@media (max-width: 479px) {
+    .rounded-circle {
+        height: 200px;
+        width: 200px;
+    
+    }
+
+    h1 {
+        font-size: 20px;
+        padding-right: 10px;
+    }
+
+    .menu-cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
